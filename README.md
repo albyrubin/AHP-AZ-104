@@ -69,7 +69,7 @@ Each exercise is self-contained and can be completed independently.
 │   ├── arm/
 │   └── parameters/
 │
-├── exercise02-deploy-vnet/
+└── exercise02-deploy-vnet/
     ├── README.md
     ├── powershell/
     ├── azure-cli/
