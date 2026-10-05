@@ -8,8 +8,6 @@ This repository is a collection of hands-on Azure exercises that I developed as 
 - Azure CLI
 - PowerShell automation
 
- 
-
 The exercises are based on the official Microsoft Learning labs for the AZ-104: Microsoft Azure Administrator certification and are inspired by the scenarios and activities available in the Microsoft Learning documentation:
 
 - [AZ-104: Microsoft Azure Administrator Labs](https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/)
@@ -29,8 +27,6 @@ Each exercise focuses on a specific Azure topic and includes:
 
  
 In addition to serving as a learning platform, this repository follows software engineering and cloud automation best practices, including:
-
- 
 
 - Continuous Integration using GitHub Actions
 - Secret scanning with Gitleaks
