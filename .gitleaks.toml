@@ -25,10 +25,23 @@ id = "service-principal-secret"
 description = "SP Secret"
 regex = '''(?i)(clientsecret|--password)'''
 
+#
+# Ignore common placeholders
+#
 [[allowlists]]
 description = "Documentation placeholders/examples"
 
 regexes = [
-  '''ExamplePassword''',
-  '''.*\.md$'''
+  '''ExamplePassword'''
+]
+
+#
+# Ignore documentation folders and files
+#
+[[allowlists]]
+description = "Ignore sample content"
+
+paths = [
+  '''README.md''',
+  '''docs/.*'''
 ]
