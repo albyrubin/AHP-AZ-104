@@ -47,6 +47,8 @@ Main properties:
 
 Since this repository is intended to help me learn Azure administration, Azure CLI, PowerShell, ARM, and Bicep through the AZ-104 labs, I decided to start with all rules set to warning so that exercises remain easy to run while still highlighting improvements.
 
+Microsoft documentation [here](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/linter).
+
 ### `no-hardcoded-env-urls`
 
 Flags hardcoded cloud environment URLs:
@@ -57,12 +59,32 @@ Flags hardcoded cloud environment URLs:
 }
 ```
 
-### `no-unused-params`
+### `no-unused-parameters`
 
 Flags parameters that are defined but never referenced:
 
 ```json
-"no-unused-params": {
+"no-unused-parameters": {
+    "level": "warning"
+}
+```
+
+### `no-unused-vars`
+
+Flags variables that are defined but never referenced:
+
+```json
+"no-unused-vars": {
+    "level": "warning"
+}
+```
+
+### `use-resource-symbol-reference`
+
+Detects suboptimal uses of the reference and list functions:
+
+```json
+"use-resource-symbol-reference": {
     "level": "warning"
 }
 ```
