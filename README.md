@@ -318,6 +318,14 @@ AccountKey=xxxxxxxxxxxxxxxxxxxxxxxx
 
 Pull requests containing secrets will fail automatically.
 
+`.gitleaks.toml` is the configuration file used by **Gitleaks** to define what should be considered a secret, what should be ignored, and how scanning should behave.
+
+When GitHub Actions runs:
+
+```yaml
+- uses: gitleaks/gitleaks-action@v2
+```
+
 ---
 
 ## License
