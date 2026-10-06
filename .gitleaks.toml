@@ -42,6 +42,6 @@ regexes = [
 description = "Ignore sample content"
 
 paths = [
-  '''(^|.*/)README\.md$''',
+  '''README\.md$''',
   '''docs/.*'''
 ]
