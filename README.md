@@ -241,7 +241,7 @@ Checks include:
 Example forbidden pattern:
 
 ```powershell
-$password = "<your-password-here>"
+$password = <your-password-here>
 ```
 
 ---
@@ -309,7 +309,7 @@ Gitleaks scans the entire repository looking for:
 Example of forbidden content:
 
 ```powershell
-$password = "<your-password-here>"
+$password = <your-password-here>
 ```
 
 ```text
