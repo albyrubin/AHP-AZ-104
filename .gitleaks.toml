@@ -26,8 +26,9 @@ description = "SP Secret"
 regex = '''(?i)(clientsecret|--password)'''
 
 [[allowlists]]
-description = "Documentation placeholders"
+description = "Documentation placeholders/examples"
 
 regexes = [
-  '''ExamplePassword'''
+  '''ExamplePassword''',
+  '''.*\.md$'''
 ]
