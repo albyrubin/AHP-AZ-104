@@ -32,7 +32,9 @@ regex = '''(?i)(clientsecret|--password)'''
 description = "Documentation placeholders/examples"
 
 regexes = [
-  '''ExamplePassword'''
+  '''ExamplePassword''',
+  '''SuperSecretPassword123!''',
+  '''xxxxxxxxxxxxxxxxxxxxxxxx'''
 ]
 
 #
