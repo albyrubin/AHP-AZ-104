@@ -59,12 +59,12 @@ Flags hardcoded cloud environment URLs:
 }
 ```
 
-### `no-unused-parameters`
+### `no-unused-params`
 
 Flags parameters that are defined but never referenced:
 
 ```json
-"no-unused-parameters": {
+"no-unused-params": {
     "level": "warning"
 }
 ```
