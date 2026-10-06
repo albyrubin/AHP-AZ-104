@@ -1,0 +1,33 @@
+title = "Azure Learning Labs"
+
+[[rules]]
+id = "hardcoded-password"
+description = "Password"
+regex = '''(?i)password\s*[:=]\s*["'].*["']'''
+
+[[rules]]
+id = "azure-storage-key"
+description = "Azure Storage Key"
+regex = '''(?i)AccountKey=.*'''
+
+[[rules]]
+id = "connection-string"
+description = "Connection String"
+regex = '''(?i)connectionstring\s*=.*'''
+
+[[rules]]
+id = "sas-token"
+description = "SAS Token"
+regex = '''(?i)sv=.*&sig=.*'''
+
+[[rules]]
+id = "service-principal-secret"
+description = "SP Secret"
+regex = '''(?i)(clientsecret|--password)'''
+
+[[allowlists]]
+description = "Documentation placeholders"
+
+regexes = [
+  '''ExamplePassword'''
+]
