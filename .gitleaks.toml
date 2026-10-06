@@ -32,6 +32,9 @@ regex = '''(?i)(clientsecret|--password)'''
 description = "Documentation placeholders/examples"
 
 regexes = [
+  '''<your-password-here>''',
+  '''<your-storage-key-here>''',
+  '''<your-account-key-here>''',
   '''ExamplePassword''',
   '''SuperSecretPassword123!''',
   '''xxxxxxxxxxxxxxxxxxxxxxxx'''
@@ -44,6 +47,6 @@ regexes = [
 description = "Ignore sample content"
 
 paths = [
-  '''README\.md$''',
+  '''(^|.*/)README\.md$''',
   '''docs/.*'''
 ]
