@@ -241,7 +241,7 @@ Checks include:
 Example forbidden pattern:
 
 ```powershell
-$password = "P@ssw0rd!"
+$passwor = "P@ssw0rd!"
 ```
 
 ---
@@ -309,11 +309,11 @@ Gitleaks scans the entire repository looking for:
 Example of forbidden content:
 
 ```powershell
-$password = "SuperSecretPassword123!"
+$passwor = "SuperSecretPassword123!"
 ```
 
 ```text
-AccountKey=xxxxxxxxxxxxxxxxxxxxxxxx
+AccountKe=xxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 Pull requests containing secrets will fail automatically.
