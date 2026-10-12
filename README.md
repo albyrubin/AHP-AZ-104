@@ -57,7 +57,7 @@ Each exercise is self-contained and can be completed independently.
 │   ├── modules/
 │   └── scripts/
 │
-├── exercise01-deploy-storage/
+├── lab01-deploy-storage/
 │   ├── README.md
 │   ├── powershell/
 │   ├── azure-cli/
@@ -65,7 +65,7 @@ Each exercise is self-contained and can be completed independently.
 │   ├── arm/
 │   └── parameters/
 │
-└── exercise02-deploy-vnet/
+└── lab02-deploy-vnet/
     ├── README.md
     ├── powershell/
     ├── azure-cli/
@@ -92,7 +92,7 @@ Each exercise contains:
 Example:
 
 ```text
-exercise01-deploy-storage/
+lab01-deploy-storage/
 │
 ├── README.md
 │
@@ -189,7 +189,7 @@ Navigate to the desired exercise folder.
 Example:
 
 ```bash
-cd exercise01-deploy-storage
+cd lab01-deploy-storage
 ```
 
 Deploy using Azure CLI:
